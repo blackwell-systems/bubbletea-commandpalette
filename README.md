@@ -14,7 +14,7 @@ A fuzzy-search command palette overlay for [Bubble Tea](https://github.com/charm
 ## Installation
 
 ```bash
-go get github.com/blackwell-systems/bubbletea-components/commandpalette
+go get github.com/blackwell-systems/bubbletea-commandpalette
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ go get github.com/blackwell-systems/bubbletea-components/commandpalette
 ### 1. Define your actions
 
 ```go
-import "github.com/blackwell-systems/bubbletea-components/commandpalette"
+import "github.com/blackwell-systems/bubbletea-commandpalette"
 
 actions := []commandpalette.Action{
     {
@@ -153,7 +153,7 @@ package main
 import (
     "fmt"
 
-    "github.com/blackwell-systems/bubbletea-components/commandpalette"
+    "github.com/blackwell-systems/bubbletea-commandpalette"
     tea "github.com/charmbracelet/bubbletea"
     "github.com/charmbracelet/lipgloss"
 )
@@ -334,4 +334,4 @@ Results beyond `MaxResults` are not shown or navigable. With fuzzy sorting (best
 
 ## License
 
-See project root for license information.
+MIT License - see [LICENSE](LICENSE) for details.
